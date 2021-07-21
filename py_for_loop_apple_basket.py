@@ -6,8 +6,9 @@
 fruit = 'apple'
 
 # Number of apples
-num = 1
+num = 0
 
-# Begin for loop of apples
-for i in fruit:
-    print(num,fruit)
+# Begin loop, count apples
+for _ in fruit:
+    num = num + 1
+    print(num, fruit)
