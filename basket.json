@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "basket":[
     { "banana":"yellow" },
@@ -5,3 +6,19 @@
     { "orange":"orange" },
     { "grape":"purple" }
   ]}
+=======
+[
+  {
+    "name": "apple",
+    "color" "red"
+  },
+  {
+    "name": "orange",
+    "color": "orange"
+  },
+  {
+    "name": "banana",
+    "color": "yellow"
+  }
+]
+>>>>>>> 58d68e42f977e82721e29bee7457d06886771c92

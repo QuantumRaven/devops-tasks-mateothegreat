@@ -1,14 +1,12 @@
 ##############
-# Apple loop
+# Fruit loop
 ##############
+import json
 
-# Assign apple to fruit
-fruit = 'apple'
+# Open basket.json
+with open('./basket.json') as f:
+    data = json.load(f)
 
-# Number of apples
-num = 0
-
-# Begin loop, count apples
-for _ in fruit:
-    num = num + 1
-    print(num, fruit)
+# Create a loop with basket.json's data that prints the fruit name and its color
+for i in data["basket"]:
+    print(i)
