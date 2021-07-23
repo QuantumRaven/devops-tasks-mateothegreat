@@ -10,21 +10,6 @@ import json
 with open("./basket.json") as file:
     data = json.load(file)
 
-# Create a loop with basket.json's data that prints the fruit name
-# and its color
-# for item in data["basket"]:
-#     print(item)
-
-# Print a specific color, yellow
-# for item in data["basket"]:
-#     if i["color"] == "yellow":
-#         print(i["color"])
-
-# Print red items
-# for item in data["basket"]:
-#     if item["color"] == "red":
-#         print(item)
-
 # Python addition function with arguments
 def add(a, b):
     return a + b
@@ -66,4 +51,6 @@ print()
 # def = define method
 def bastot():
     print(total)
+
+
 bastot()
